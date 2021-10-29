@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useRef } from "react";
 import { Form, Button, Card, Container } from "react-bootstrap";
 import loginLogo from "../images/login1.png";
 import { Link } from "react-router-dom";
@@ -74,7 +74,7 @@ function Login() {
           className="col d-flex align-items-center justify-content-center"
           style={{ height: "100vh" }}
         >
-          <img src={loginLogo} class="img-fluid" alt="Responsive image" />
+          <img src={loginLogo} className="img-fluid" alt="profile" />
         </div>
       </div>
     </Container>

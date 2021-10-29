@@ -85,7 +85,7 @@ function SignUp() {
             className="col d-flex align-items-center justify-content-center"
             style={{ height: "100vh" }}
           >
-            <img src={signupLogo} class="img-fluid" alt="Responsive image" />
+            <img src={signupLogo} class="img-fluid" alt="SignupLogo" />
           </div>
         </div>
       </div>

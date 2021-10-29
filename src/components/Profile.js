@@ -1,5 +1,5 @@
-import React, { useRef, useState } from "react";
-import { Form, Button, Card, Container } from "react-bootstrap";
+import React, { useState } from "react";
+import { Form, Button, Card } from "react-bootstrap";
 import avatar from "../images/avatar.png";
 import leftImage from "../images/temp1.svg";
 import { useHistory } from "react-router";
@@ -48,7 +48,7 @@ function Profile() {
           src={leftImage}
           style={{ width: "40rem" }}
           class="img-fluid"
-          alt="Responsive image"
+          alt="left-div-pic"
         />
       </div>
 
